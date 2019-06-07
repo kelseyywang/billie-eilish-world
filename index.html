@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141655703-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+function gtag() {
+  dataLayer.push(arguments);
+}
+gtag("js", new Date());
+
+gtag("config", "UA-141655703-1");
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display|BenchNine:300&display=swap" rel="stylesheet">
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+    <script src="scripts/lyrics.js"></script>
+    <script src="scripts/script.js"></script>
+    <title>tHe bEsT FaNSiTE eVER</title>
+  </head>
+  <body>
+    <script>
+    AOS.init();
+</script>
+    <div class="overlay"></div>
+    <div class="background-image"></div>
+    <div class="full-screen">
+      <div class="welcome-screen">
+        <div class="welcome-title" data-aos="fade-in" data-aos-duration="2000">
+          Billie Eilish inspires me every day
+        </div>
+      </div>
+      <div class="featured-screen">
+        <div class="title-container">
+          <div class="big-title">
+            Featured Content
+          </div>
+        </div>
+        <div class="featured-video-container">
+          <div class="featured-video">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QBgCpd4vKPo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+      <div id="game-screen-id" class="game-screen">
+        <div id="game-time" class="game-words">
+          Play the Lyrics Game
+        </div>
+        <div id="game-lyrics-title">
+          (All songs from WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?)
+          <br/>
+        </div>
+        <div id="game-lyrics" class="game-words">
+
+        </div>
+         <button id="game-start-button" class="game-button" onclick="startGame()">Start the game!</button>
+        <input type="text" placeholder="What song?" id="game-input" onkeydown="enterGuess(this)">
+        </input>
+      </div>
+      <div class="socials-screen">
+        <div class="title-container">
+          <div id="socials-title" class="big-title">
+            Socials
+          </div>
+        </div>
+        <div class="socials-container">
+          <div class="twitter-container">
+            <a class="twitter-timeline" data-height="500" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/billieeilish?ref_src=twsrc%5Etfw">Tweets by billieeilish</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+          <div class="insta-container">
+            <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+            <div class="elfsight-app-03573fc0-498e-4c94-99f1-3a8aced93d0b"></div>
+          </div>
+          <div class="youtube-container">
+            <iframe id="ytplayer" type="text/html" width="100%" height="100%"
+            src="https://www.youtube.com/embed/?listType=playlist&list=UUiGm_E4ZwYSHV3bcW1pnSeQ"
+            frameborder="0" allowfullscreen>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
